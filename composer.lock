@@ -4,69 +4,8 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "0fdc792bc81c5ad17bcb169369aa2ee4",
+    "hash": "4d53e2dfb993c6c454d28dff7482d9ee",
     "packages": [
-        {
-            "name": "alchemy/zippy",
-            "version": "0.1.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/alchemy-fr/Zippy.git",
-                "reference": "7c9211377881a98f84ca382f1e5792e8a27019e5"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/alchemy-fr/Zippy/zipball/7c9211377881a98f84ca382f1e5792e8a27019e5",
-                "reference": "7c9211377881a98f84ca382f1e5792e8a27019e5",
-                "shasum": ""
-            },
-            "require": {
-                "doctrine/collections": "~1.0",
-                "guzzle/guzzle": "~3.0",
-                "php": ">=5.3.3",
-                "pimple/pimple": "~1.0",
-                "symfony/filesystem": "~2.0",
-                "symfony/process": "~2.0"
-            },
-            "require-dev": {
-                "ext-zip": "*",
-                "sami/sami": "dev-master@dev",
-                "symfony/finder": "~2.0"
-            },
-            "suggest": {
-                "ext-zip": "To use the ZipExtensionAdapter"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "0.1.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-0": {
-                    "Alchemy": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Alchemy",
-                    "email": "dev.team@alchemy.fr",
-                    "homepage": "http://www.alchemy.fr/"
-                }
-            ],
-            "description": "Zippy, the archive manager companion",
-            "keywords": [
-                "bzip",
-                "compression",
-                "tar",
-                "zip"
-            ],
-            "time": "2013-04-12 10:24:45"
-        },
         {
             "name": "barryvdh/laravel-ide-helper",
             "version": "dev-master",
@@ -956,12 +895,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:cartalyst/sentinel.git",
-                "reference": "e8626781303ce85d63689c43998b236146fd2c4a"
+                "reference": "17e8767622ae89a9dd477fc3ede47f01e32cbd90"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cartalyst/sentinel/zipball/e8626781303ce85d63689c43998b236146fd2c4a",
-                "reference": "e8626781303ce85d63689c43998b236146fd2c4a",
+                "url": "https://api.github.com/repos/cartalyst/sentinel/zipball/17e8767622ae89a9dd477fc3ede47f01e32cbd90",
+                "reference": "17e8767622ae89a9dd477fc3ede47f01e32cbd90",
                 "shasum": ""
             },
             "require": {
@@ -1046,7 +985,7 @@
                 "source": "https://github.com/cartalyst/sentinel/tree/master",
                 "issues": "https://github.com/cartalyst/sentinel/issues"
             },
-            "time": "2014-07-02 21:08:23"
+            "time": "2014-07-10 03:53:40"
         },
         {
             "name": "cartalyst/sentinel-social",
@@ -1552,77 +1491,6 @@
                 "markdown"
             ],
             "time": "2014-01-06 23:32:02"
-        },
-        {
-            "name": "doctrine/collections",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/doctrine/collections.git",
-                "reference": "bbe35735af4a826c1f86b04f2fd885ff5fc0f82b"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/collections/zipball/bbe35735af4a826c1f86b04f2fd885ff5fc0f82b",
-                "reference": "bbe35735af4a826c1f86b04f2fd885ff5fc0f82b",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.2"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "~4.0"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.2.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-0": {
-                    "Doctrine\\Common\\Collections\\": "lib/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Jonathan Wage",
-                    "email": "jonwage@gmail.com",
-                    "homepage": "http://www.jwage.com/",
-                    "role": "Creator"
-                },
-                {
-                    "name": "Guilherme Blanco",
-                    "email": "guilhermeblanco@gmail.com",
-                    "homepage": "http://www.instaclick.com"
-                },
-                {
-                    "name": "Roman Borschel",
-                    "email": "roman@code-factory.org"
-                },
-                {
-                    "name": "Benjamin Eberlei",
-                    "email": "kontakt@beberlei.de"
-                },
-                {
-                    "name": "Johannes Schmitt",
-                    "email": "schmittjoh@gmail.com",
-                    "homepage": "http://jmsyst.com",
-                    "role": "Developer of wrapped JMSSerializerBundle"
-                }
-            ],
-            "description": "Collections Abstraction library",
-            "homepage": "http://www.doctrine-project.org",
-            "keywords": [
-                "array",
-                "collections",
-                "iterator"
-            ],
-            "time": "2014-06-17 17:31:49"
         },
         {
             "name": "filp/whoops",
@@ -2553,6 +2421,65 @@
             "time": "2012-08-02 02:04:32"
         },
         {
+            "name": "league/csv",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thephpleague/csv.git",
+                "reference": "c5240b896c70235f1f2a730a0e45b627014e2ef8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thephpleague/csv/zipball/c5240b896c70235f1f2a730a0e45b627014e2ef8",
+                "reference": "c5240b896c70235f1f2a730a0e45b627014e2ef8",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "php": ">=5.4.0"
+            },
+            "replace": {
+                "bakame/csv": "*"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0",
+                "squizlabs/php_codesniffer": "~1.5"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "5.5-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "League\\Csv\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ignace Nyamagana Butera",
+                    "email": "nyamsprod@gmail.com",
+                    "homepage": "https://github.com/nyamsprod/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Csv data manipulation made easy in PHP",
+            "keywords": [
+                "csv",
+                "export",
+                "filter",
+                "import",
+                "read",
+                "write"
+            ],
+            "time": "2014-05-22 15:06:31"
+        },
+        {
             "name": "league/flysystem",
             "version": "dev-master",
             "source": {
@@ -3311,52 +3238,37 @@
             "time": "2014-07-05 16:36:21"
         },
         {
-            "name": "pimple/pimple",
-            "version": "1.1.x-dev",
+            "name": "pjtitle-data/shared-data",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/fabpot/Pimple.git",
-                "reference": "bc2fc12cdf1f29bcad9e650d493a54a8fd1f3d85"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/fabpot/Pimple/zipball/bc2fc12cdf1f29bcad9e650d493a54a8fd1f3d85",
-                "reference": "bc2fc12cdf1f29bcad9e650d493a54a8fd1f3d85",
-                "shasum": ""
+                "url": "git@gitlab.kyaris.com:pjtitle-data/shared-data.git",
+                "reference": "fbff4a28ff49de5a04af8380198011ffb34a2a89"
             },
             "require": {
-                "php": ">=5.3.0"
+                "cartalyst/composer-installers": "1.1.*",
+                "illuminate/support": "~4.2",
+                "league/csv": "5.5.*@dev",
+                "php": ">=5.4.0"
             },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.1.x-dev"
-                }
-            },
+            "type": "platform-extension",
             "autoload": {
-                "psr-0": {
-                    "Pimple": "lib/"
+                "classmap": [
+                    "database/migrations",
+                    "database/seeds"
+                ],
+                "psr-4": {
+                    "PjtitleData\\SharedData\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
             "authors": [
                 {
-                    "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com",
-                    "homepage": "http://fabien.potencier.org",
-                    "role": "Lead Developer"
+                    "name": "Daniel Berry",
+                    "email": "daniel.berry@pjtitle.com"
                 }
             ],
-            "description": "Pimple is a simple Dependency Injection Container for PHP 5.3",
-            "homepage": "http://pimple.sensiolabs.org",
-            "keywords": [
-                "container",
-                "dependency injection"
-            ],
-            "time": "2014-04-20 07:24:09"
+            "description": "Extension for managing shared data that is common throughout all PJT applications",
+            "time": "2014-07-10 16:59:36"
         },
         {
             "name": "platform/admin",
@@ -3499,12 +3411,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:cartalyst/platform-attributes.git",
-                "reference": "ba0f8a2a05c137fa2b435e6be949cc2c5ab41d76"
+                "reference": "50b070ea3ee86b562108aa7d703f19bd45207f2c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cartalyst/platform-attributes/zipball/ba0f8a2a05c137fa2b435e6be949cc2c5ab41d76",
-                "reference": "ba0f8a2a05c137fa2b435e6be949cc2c5ab41d76",
+                "url": "https://api.github.com/repos/cartalyst/platform-attributes/zipball/50b070ea3ee86b562108aa7d703f19bd45207f2c",
+                "reference": "50b070ea3ee86b562108aa7d703f19bd45207f2c",
                 "shasum": ""
             },
             "require": {
@@ -3564,7 +3476,7 @@
                 "source": "https://github.com/cartalyst/platform-attributes/tree/master",
                 "issues": "https://github.com/cartalyst/platform-attributes/issues"
             },
-            "time": "2014-07-05 23:30:02"
+            "time": "2014-07-10 04:50:19"
         },
         {
             "name": "platform/content",
@@ -4027,16 +3939,15 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:cartalyst/platform-operations.git",
-                "reference": "a2aa1066bcdedeabfe1a6f67afef26e54e268a92"
+                "reference": "7250ec5a132be3495423013e829c6458c6eb04ac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cartalyst/platform-operations/zipball/a2aa1066bcdedeabfe1a6f67afef26e54e268a92",
-                "reference": "a2aa1066bcdedeabfe1a6f67afef26e54e268a92",
+                "url": "https://api.github.com/repos/cartalyst/platform-operations/zipball/7250ec5a132be3495423013e829c6458c6eb04ac",
+                "reference": "7250ec5a132be3495423013e829c6458c6eb04ac",
                 "shasum": ""
             },
             "require": {
-                "alchemy/zippy": "0.1.*",
                 "cartalyst/composer-installers": "1.1.*",
                 "cartalyst/workshop": "dev-master",
                 "php": ">=5.4.0",
@@ -4093,7 +4004,7 @@
                 "source": "https://github.com/cartalyst/platform-operations/tree/master",
                 "issues": "https://github.com/cartalyst/platform-operations/issues"
             },
-            "time": "2014-07-05 23:32:39"
+            "time": "2014-07-09 21:53:52"
         },
         {
             "name": "platform/pages",
@@ -5494,7 +5405,9 @@
         "platform/settings": 20,
         "platform/users": 20,
         "kyaris-arsenal/platform": 20,
-        "kyaris-arsenal/users": 20
+        "kyaris-arsenal/users": 20,
+        "league/csv": 20,
+        "pjtitle-data/shared-data": 20
     },
     "platform": [
 
