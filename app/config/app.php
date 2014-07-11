@@ -78,7 +78,7 @@ return array(
 	|
 	*/
 
-	'key' => 'p8Pkb9lxusKeXxOcDuXXU4R1WsBYIwKl',
+	'key' => 'qWzDCLtwTosyKBFk9EWMTtXqVGl4ctmf',
 
 	'cipher' => MCRYPT_RIJNDAEL_128,
 
@@ -134,6 +134,7 @@ return array(
 		'Platform\Foundation\Laravel\PlatformServiceProvider',
 
 		'KyarisArsenal\Platform\PlatformServiceProvider',
+        'PjtitleData\SearchApi\SearchApiServiceProvider'
 
 	),
 
