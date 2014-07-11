@@ -65,7 +65,8 @@
 		"barryvdh/laravel-ide-helper": "1.*",
 
         "league/csv": "5.5.*@dev",
-        "pjtitle-data/shared-data": "dev-master"
+        "pjtitle-data/shared-data": "dev-master",
+        "pjtitle-data/search-api": "dev-master"
 	},
 	"autoload": {
 		"classmap": [

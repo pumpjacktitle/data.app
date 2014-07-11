@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "4d53e2dfb993c6c454d28dff7482d9ee",
+    "hash": "fed40fabea902e4b7c31f259e4afd85f",
     "packages": [
         {
             "name": "barryvdh/laravel-ide-helper",
@@ -813,12 +813,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:cartalyst/nested-sets.git",
-                "reference": "8b6d7d3679945607a0da2baa42920b37c71f776f"
+                "reference": "7f5d28f5a9094f72167b88a62d2bf193decd5bd6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cartalyst/nested-sets/zipball/8b6d7d3679945607a0da2baa42920b37c71f776f",
-                "reference": "8b6d7d3679945607a0da2baa42920b37c71f776f",
+                "url": "https://api.github.com/repos/cartalyst/nested-sets/zipball/7f5d28f5a9094f72167b88a62d2bf193decd5bd6",
+                "reference": "7f5d28f5a9094f72167b88a62d2bf193decd5bd6",
                 "shasum": ""
             },
             "require": {
@@ -887,7 +887,7 @@
                 "source": "https://github.com/cartalyst/nested-sets/tree/master",
                 "issues": "https://github.com/cartalyst/nested-sets/issues"
             },
-            "time": "2014-07-05 23:07:09"
+            "time": "2014-07-11 00:50:54"
         },
         {
             "name": "cartalyst/sentinel",
@@ -1075,12 +1075,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:cartalyst/themes.git",
-                "reference": "d7c831a760df532f77a9d9bea592401fa68783d5"
+                "reference": "f914f90da74d71cca79be3717ae32af696934be6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cartalyst/themes/zipball/d7c831a760df532f77a9d9bea592401fa68783d5",
-                "reference": "d7c831a760df532f77a9d9bea592401fa68783d5",
+                "url": "https://api.github.com/repos/cartalyst/themes/zipball/f914f90da74d71cca79be3717ae32af696934be6",
+                "reference": "f914f90da74d71cca79be3717ae32af696934be6",
                 "shasum": ""
             },
             "require": {
@@ -1162,7 +1162,7 @@
                 "source": "https://github.com/cartalyst/themes/tree/2.2",
                 "issues": "https://github.com/cartalyst/themes/issues"
             },
-            "time": "2014-07-08 14:41:05"
+            "time": "2014-07-11 00:51:30"
         },
         {
             "name": "cartalyst/widgets",
@@ -1641,6 +1641,124 @@
                 "web service"
             ],
             "time": "2014-05-07 17:04:22"
+        },
+        {
+            "name": "guzzlehttp/guzzle",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guzzle/guzzle.git",
+                "reference": "49a14b2bbc819c801a8eb1509de2179f718e3f0b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/49a14b2bbc819c801a8eb1509de2179f718e3f0b",
+                "reference": "49a14b2bbc819c801a8eb1509de2179f718e3f0b",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "guzzlehttp/streams": "~1.0",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "ext-curl": "*",
+                "phpunit/phpunit": "~4.0",
+                "psr/log": "~1.0"
+            },
+            "suggest": {
+                "ext-curl": "Guzzle will use specific adapters if cURL is present"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "GuzzleHttp\\": "src/"
+                },
+                "files": [
+                    "src/functions.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Dowling",
+                    "email": "mtdowling@gmail.com",
+                    "homepage": "https://github.com/mtdowling"
+                }
+            ],
+            "description": "Guzzle is a PHP HTTP client library and framework for building RESTful web service clients",
+            "homepage": "http://guzzlephp.org/",
+            "keywords": [
+                "client",
+                "curl",
+                "framework",
+                "http",
+                "http client",
+                "rest",
+                "web service"
+            ],
+            "time": "2014-07-08 05:30:38"
+        },
+        {
+            "name": "guzzlehttp/streams",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guzzle/streams.git",
+                "reference": "cf0c8c33ca95cc147efba4c714f630ee44767180"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guzzle/streams/zipball/cf0c8c33ca95cc147efba4c714f630ee44767180",
+                "reference": "cf0c8c33ca95cc147efba4c714f630ee44767180",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "GuzzleHttp\\Stream\\": "src/"
+                },
+                "files": [
+                    "src/functions.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Dowling",
+                    "email": "mtdowling@gmail.com",
+                    "homepage": "https://github.com/mtdowling"
+                }
+            ],
+            "description": "Provides a simple abstraction over streams of data (Guzzle 4+)",
+            "homepage": "http://guzzlephp.org/",
+            "keywords": [
+                "Guzzle",
+                "stream"
+            ],
+            "time": "2014-04-03 04:48:24"
         },
         {
             "name": "herrera-io/json",
@@ -3236,6 +3354,33 @@
                 "x509"
             ],
             "time": "2014-07-05 16:36:21"
+        },
+        {
+            "name": "pjtitle-data/search-api",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@gitlab.kyaris.com:pjtitle-data/search-api.git",
+                "reference": "d05119931829a69205fca88f091cbf8f125d88f9"
+            },
+            "require": {
+                "guzzlehttp/guzzle": "4.1.*@dev",
+                "illuminate/support": "4.2.*",
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "PjtitleData\\SearchApi": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Daniel Berry",
+                    "email": "daniel.berry@pjtitle.com"
+                }
+            ],
+            "time": "2014-07-11 15:59:56"
         },
         {
             "name": "pjtitle-data/shared-data",
@@ -5077,12 +5222,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/HttpKernel.git",
-                "reference": "c7d582cf30374775581f2574aaac5aeae5316411"
+                "reference": "edf9fe2c69ae3e17d95d930172f9cecf07b80589"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/HttpKernel/zipball/c7d582cf30374775581f2574aaac5aeae5316411",
-                "reference": "c7d582cf30374775581f2574aaac5aeae5316411",
+                "url": "https://api.github.com/repos/symfony/HttpKernel/zipball/edf9fe2c69ae3e17d95d930172f9cecf07b80589",
+                "reference": "edf9fe2c69ae3e17d95d930172f9cecf07b80589",
                 "shasum": ""
             },
             "require": {
@@ -5141,7 +5286,7 @@
             ],
             "description": "Symfony HttpKernel Component",
             "homepage": "http://symfony.com",
-            "time": "2014-07-08 18:56:57"
+            "time": "2014-07-09 09:05:48"
         },
         {
             "name": "symfony/process",
@@ -5407,7 +5552,8 @@
         "kyaris-arsenal/platform": 20,
         "kyaris-arsenal/users": 20,
         "league/csv": 20,
-        "pjtitle-data/shared-data": 20
+        "pjtitle-data/shared-data": 20,
+        "pjtitle-data/search-api": 20
     },
     "platform": [
 
